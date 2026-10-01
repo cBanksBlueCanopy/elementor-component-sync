@@ -1,0 +1,49 @@
+{
+  "name": "Elementor Component Sync",
+  "slug": "elementor-component-sync",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "author_uri": "https://example.com",
+  "description": "Export and import Elementor v4 components between WordPress sites",
+  "license": "GPL v2 or later",
+  "license_uri": "https://www.gnu.org/licenses/gpl-2.0.html",
+  "text_domain": "elementor-component-sync",
+  "domain_path": "/languages",
+  "minimum_wp": "5.0",
+  "minimum_php": "7.4",
+  "requires_elementor": "4.0",
+  "tested_elementor_up_to": "4.0",
+  "files": [
+    "elementor-component-sync.php",
+    "includes/class-exporter.php",
+    "includes/class-importer.php",
+    "includes/class-admin-page.php",
+    "assets/css/admin.css",
+    "assets/js/admin.js",
+    "README.md"
+  ],
+  "features": [
+    "Single component export",
+    "Multiple components (library) export",
+    "Component import with preview",
+    "Library import",
+    "CSS preservation",
+    "Metadata preservation",
+    "AJAX-based operations",
+    "Admin interface",
+    "Security checks",
+    "Cache clearing"
+  ],
+  "changelog": {
+    "1.0.0": {
+      "release_date": "2024-01-15",
+      "changes": [
+        "Initial release",
+        "Single component export/import",
+        "Library export/import",
+        "Admin interface",
+        "Preview functionality"
+      ]
+    }
+  }
+}
