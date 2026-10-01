@@ -1,4 +1,5 @@
 # Elementor Component Sync
+** NOT READY FOR PRODUCTION **
 
 A WordPress plugin that enables exporting and importing Elementor v4 components from the Elementor Component Library between WordPress sites.
 
